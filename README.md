@@ -1,2 +1,3 @@
 # CentroDeExamenes
- Multitareas en Java
+
+ Esta actividad busca desarrollar un programa en Java que simule el funcionamiento de un centro de exámenes donde varios alumnos realizan pruebas de manera simultánea. Cada alumno es representado por un hilo de ejecución que “consume” un examen de una cola compartida, gestionada mediante un buffer. El programa permite explorar cómo se crean y sincronizan hilos en Java y aplica el patrón productor-consumidor para coordinar la generación y asignación de exámenes a cada alumno. Esta práctica es una introducción al manejo de concurrencia en Java y a los desafíos que surgen al trabajar con recursos compartidos.
